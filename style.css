@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    background-color: #fecf6c;
+    box-shadow: 0 0 10px gray;
+    height: 10%;
+    display: flex;
+}
+
+main{
+    background-color: #fed06c86;
+    height: 75%;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: #fecf6c;
+    height: 15%;
+}
+
+.card-right{
+    display: flex;
+}
+
+.card-right img{
+    padding: 5px 5px 5px 5px;
+    margin-right: 20px;
+    align-items: right;
+}
+
+.card-left{
+    display: flex;
+}
+
+.card-left img{
+    padding: 5px 5px 5px 5px;
+    margin-left: 20px;
+}
+
+
