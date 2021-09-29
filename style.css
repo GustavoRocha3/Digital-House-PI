@@ -20,6 +20,13 @@ header {
     display: flex;
 }
 
+.img_logo {
+    display: flex;
+    align-self: center;
+    max-width: 75%;
+    max-height: auto;
+}
+
 .card-left {
     display: flex;
     width: 20%;
@@ -116,9 +123,71 @@ header {
 
 main {
     background-color: #fed06c86;
-    height: 70%;
+    height: auto;
     justify-content: space-around;
     box-sizing: border-box;
+}
+
+.card-carrousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    border-bottom: 1px solid black;
+}
+
+.card-carrousel img {
+    border: 1px solid black;
+    height: 80%;
+    width: 80%;
+}
+
+.card-main-top {
+    display: flex;
+    height: 300px;
+    border-bottom: 2px solid black;
+    flex-direction: column;
+}
+
+.section-name-1 {
+    display: flex;
+    align-items: flex-start;
+    margin: 1% 40% 1% 40%;
+    padding: 0px 25px 0px 25px;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ffba25;
+    padding: 0px 10px 0px 10px;
+}
+
+.section-1 {
+    display: flex;
+}
+
+.section-1 img {
+    height: 45%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 25px;
+}
+
+.section-1 p {
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.card-main-middle {
+    display: flex;
+    height: 300px;
+    border-bottom: 1px solid black;
+}
+
+.card-main-bottom {
+    display: flex;
+    height: 300px;
 }
 
 
