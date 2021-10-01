@@ -72,6 +72,8 @@ header {
 
 .card-right nav>a {
     font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
 }
 
 .card-right nav:hover {
@@ -92,19 +94,52 @@ nav:hover {
 /* corpo da página */
 
 main {
+    display: flex;
     background-color: #fed06c86;
-    height: auto;
+    height: 100vh;
     justify-content: space-around;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    padding-top: 10px;
+    padding: 20px 10px 20px 10px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 15px 0 15px;
+    margin: 10px;
+    background-color: #ffba25;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: black;
+    word-break: break-word;
+    text-align: center;
+}
+
+ul>li:hover {
+    background-color: #ce9928;
+    color: #d49100;
+    text-decoration: none;
+    border: 1px solid black;
 }
 
 .card-main-left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+    height: 50vh;
+    width: 25%;
 }
 
 .card-main-left div {
@@ -120,14 +155,26 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid black;
     border-radius: 10px;
+    margin-left: 10px;
+    width: 50vw;
+    height: 80%;
 }
 
 .content-top {
-    background-color: white;
+    align-self: flex-start;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1px 10px 1px 10px;
 }
 
 .content-bottom {
+    padding: 5px;
+    width: 95%;
+    height: 100%;
+    margin: 10px;
     border-radius: 10px;
     border: 1px solid black;
 }
